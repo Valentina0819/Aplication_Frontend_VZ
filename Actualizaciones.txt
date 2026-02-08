@@ -1,0 +1,12 @@
+- Se agrego los 3 modulos principales "productos , pedidos , facturacion " los cuales manejan conceptos de como deberia trabajar al 100% la pagina una vez terminada para esto tambien se le agrego un backen falso con json server para poder ejecutar lo que seria el crud funciona completamente aunque falta pulir la busqueda de pedidos en el modulo de facturas actualmente lo hace solo a un nivel que se tiene que agregar el id generado por pedidos, como tambien faltaria el modulo de pedidos poner restriccciones en el apartado de llenar los campos.
+
+npm run json:server
+
+npm start 
+
+Comandos importantes para echar andar el proyecto
+
+
+
+-Se agrego la funcionalidad del modulo inicio y register ahora cada que te registres puedes hacer que inices session como tambien se creo un pseudo modulo de inicio en el cual hay 3 cards con botones que te llevan a los modulos (facturacion,pedidos,producto)
+
